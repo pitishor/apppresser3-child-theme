@@ -1,0 +1,639 @@
+/*!
+Theme Name: Ion AP3 Child Theme
+Author: AppPresser Team
+Author URI: http://apppresser.com
+Description: A starter child theme for the Ion AP3 theme.
+Version: 1.0.0
+Template: ap3-ion-theme
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/**
+ * Your custom styles go below this line
+ * --------------------------------------------------
+ */
+
+
+
+#menu-content > header > a.io-modal-open.button.nav-left-btn{
+	left: unset;
+}
+
+img.avatar.photo{
+	max-width: 25%;
+}
+
+
+.searchform ,#searchform > label {
+ display: flex;
+ margin:auto;
+ width: 100%;
+}
+
+div.activity-content > div.activity-inner > div > ul > li > a , div.activity-content > div.activity-inner > div > ul > li > a > div.rtmedia-item-thumbnail > img {
+	width :100%;
+}
+
+#item-header-content,
+div#item-buttons{
+	background: rgba(255,255,255,0.8);
+	display:table;
+	width:100%;
+}
+
+
+div#item-buttons > div{
+	display:grid;
+	right:5px;
+}
+div#item-buttons > div > a{
+	left: 0px;
+	width:100%;
+}
+
+ .remove-friend-suggestion > a{
+	font-size: 0px;
+}
+.button {
+	background-color: transparent;
+}
+
+a, .activity-list .acomment-meta >a:first-child {
+  color: #8E44AD;
+  text-decoration: none;
+}
+
+.tab-button[aria-selected=true] ion-icon{
+  color: #8E44AD!important;
+}#tab-t0-1 > ion-icon
+ 
+.bp-primary-action{
+  font-size: 0!important;
+}
+
+ .button.acomment-reply.bp-primary-action > span  {
+ font-size: 12px!important;
+ position: absolute;
+ left: 14px;
+ color : #8E44AD;
+}
+
+div.activity-meta > a.acomment-reply.bp-primary-action > i >span{
+	 font-size: 12px!important;
+	 position: relative;
+	 top: 9px;
+	 color : #8E44AD;
+
+}
+
+.button.bp-primary-action.unlike > span, .button.bp-primary-action.like > span   {
+ font-size: 12px!important;
+ position: absolute;
+ left: 34px;
+ top: 1px;
+ color : #8E44AD;
+}
+
+
+#latest-update, .users-who-like ,#signup_form > div.padding > p {
+	display:none;
+}
+
+#send-reply > div.message-box.item {
+	border: none;
+}
+
+.button.acomment-reply.bp-primary-action , .button.acomment-reply.bp-primary-action > i, a.bp-secondary-action.push-page, .bpas-show-share-options ,.WOOWInputPriceLabel, .fav, .delete-activity, .unfav, .unlike, .like{
+  font-size: 0!important;
+  line-height: 43px!important;
+  margin: 0px!important;
+  padding: 0px!important;
+  border:none!important;
+  min-width: 43px!important;
+  text-align:center;
+}
+
+.button.acomment-reply.bp-primary-action::before, .bpas-show-share-options::before, .delete-activity::before,.unfav::before, .fav::before, .like::before, .unlike::before, a.bp-secondary-action.push-page::before {
+	font-family: "Ionicons"!important;
+	font-size: 24px!important;
+	margin:0px!important;
+    position: relative;
+	text-align:center;
+    border:0px!important;
+}
+
+
+div.activity-content > div.activity-meta > a.button.item-button.bp-secondary-action.delete-activity.confirm, 
+.acomment-options,.show-all, .delete-activity{
+	display: none;
+}
+
+.bpas-show-share-options::before{
+	content: "\f499";
+}
+
+.activity-meta > .like::before, .activity-meta > .unlike::before{ content: "\F251";
+}
+
+a.bp-secondary-action.push-page::before{
+	content:"\f3fb" ;
+}
+
+.unfav::before, .unlike::before{
+	color: #8E44AD!important;
+}
+
+
+.WOOWInputPrice {
+ 	display: inline !important;
+    margin: auto !important; 
+	width: 50px !important;
+}
+
+.woowBuyForm {
+    display: table-cell;
+	vertical-align: middle; 
+	margin: auto;
+	height: 21px;
+}
+
+.woowprice{
+	display: table-cell;
+	vertical-align: middle; 
+}
+
+.woowDivBuyForm{
+	display:table;
+	height: 43px;
+}
+
+.woowBuyDiv{
+position: relative;
+display: block;
+margin: 0;
+padding: 0px 0px 0px 10px;
+min-width: 42px;
+min-height: 47px;
+vertical-align: middle;
+text-align: center;
+text-overflow: ellipsis;
+font-size: 16px;
+line-height: 42px;
+cursor: pointer;
+}
+ 
+.WOOWBuyButton {
+	height: 16px;
+	margin: 7px 0px 0px 0px;
+}
+
+p.woowPriceStatusLabel, a[name="woowPaypalReminder"].woowNoPaypalLabel{
+	background: #cccccc;
+	font-size: 12px;	
+    position: fixed;
+	left: 10%;
+	bottom: 1px;
+	width: 80%;
+	text-align: center;
+	z-index: 100;
+	color:red;
+}
+
+.activity-list .content-block li {
+padding:0;
+}
+
+.bpfb_final_link   .bpfb_link_contents{
+   width: unset;
+}
+
+.WOOWInputPriceLabel::before {
+  font-family: "Ionicons";
+  color: green;
+  font-size: 15px;
+  content:'\f353';
+}
+
+p.WOOWInputPrice{
+	font-size: 11px;
+	width: 10px!important;
+}
+
+.button {
+	padding: 0px 10px;
+}
+
+#member-nav , #sub-nav-button{
+	color: #8E44AD;
+	background-color: #cccccc;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+	border-radius: 4px; 
+}
+
+#member-nav::before , #sub-nav-button::before {
+	content: '';
+}
+
+a.tab-button.has-title.has-icon span.tab-button-text, {
+display: none;
+}
+ 
+#signup_submit, #message-recipients .confirm, #wp-submit, #ac_form_submit, a.button,   div.generic-button a ,  .friendship-button.is_friend.remove, .friendship-button.not_friends.add, a.unfollow, a.follow, .remove-friend-suggestion > a::before , #bp-browse-button , .friendship-button.awaiting_response_friend.requested{
+	color: #8E44AD;
+	display: table;
+    font-size: 11px;
+    text-decoration: none;
+	min-width: 50px;
+	line-height: 24px;
+	min-height: 24px!important;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+	border-radius: 4px; 
+
+}
+
+.item.read{
+    padding: 4px;
+	border-width: 2px;
+}
+
+.thread-options{
+   display:none;
+}
+
+#searchsubmit{
+	font-size: 0; 
+    background: url(https://www.woowclover.com/wp-content/uploads/2017/03/app.search.button.png);
+}
+
+div.action , div.activity-meta > a.acomment-reply.bp-primary-action > i {
+   display: flex;
+}
+
+
+
+#wp-submit, #signup_submit, a.follow, a.unfollow {
+position: relative;
+left: 10px;
+padding: 6px;
+
+}
+
+#wp-submit{
+	width: 90%!important;
+}
+
+#signup_submit, #wp-submit, .friendship-button.not_friends.add, .friendship-button.is_friend.remove , a.button,div.generic-button a , .friendship-button.awaiting_response_friend.requested, .friendship-button.pending_friend.requested {
+	position: relative;
+/*	left: 5px;*/
+    padding: 6px;
+}
+
+.remove-friend-suggestion > a::before{
+    content: "Remove";
+    padding: 6px;
+}
+
+
+div.friendship-button.pending_friend.generic-button a, div.friendship-button.not_friends.generic-button.pending_friend a.remove{
+	padding: 6px;
+	min-width: 54.6px
+}
+
+
+#main .item{
+ padding: 2px;
+}
+
+#members-suggestion-list{
+padding-left: 0px;
+margin: 0px;
+list-style-type: none;
+display: grid;
+}
+
+#members-suggestion-list li{
+ display: block;
+ line-height: unset;
+}
+
+div.item-avatar{
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    border-radius: 25px;
+    padding-left: 0px;
+    min-height: unset;
+}
+ul#members-suggestion-list.item-list.suggested-friend-item-list li div.item {
+ border-style: none;
+}
+ul#members-suggestion-list.item-list.suggested-friend-item-list li div.action{
+ 
+ line-height: 1;
+}
+
+.rtsocial-container {
+	display: none;
+}
+
+div.activity-meta select.rtm-form-select.privacy.rtm-activity-privacy-opt , #field-visibility-settings-toggle-19 ,.field-visibility-settings, .activity-comments {
+	display: none;
+}
+
+button.button-primary, #buddypress input[type=submit], #attach-photo-ap3, a.ac-reply-cancel,   #avfr-filter-status, #avfr-filter-groups , #WOOWRequestButton , #avfr-btn , #group-creation-previous.button.button-primary, .accept-invite , .request-membership, .leave-group , .join-group {
+	background: white!important;
+	color: #8E44AD!important;
+    font-size: 11px;
+    text-decoration: none;
+    padding: 0px 8px 0px 8px;
+    margin: 0px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #8E44AD!important;
+    border-bottom: 1px solid #8E44AD!important;
+    border-left: 1px solid #CCCCCC;
+	min-height:30px;
+	line-height :unset;
+	border-radius: 4px; 
+}
+#basic-details-section label input,
+#field_1, #field_15, #field_5 {
+	border:1px solid red;
+}
+
+.editfield.required-field.field_type_radio{
+	margin-top : 5px;
+	margin-bottom : 5px;
+	border:1px solid red;
+}
+
+fieldset.radio{
+	border:unset;
+}
+
+
+.bp-required-field-label{
+	color: red;
+}
+
+.ion-ios-chatbubble-outline::before{
+	margin: 8px  0px 8px 0px;
+}
+
+input#email, #pwd, #pass2, #pass1, .editfield.optional-field.field_type_textbox ,.editfield.optional-field.field_type_url ,.editfield.optional-field.field_type_textarea ,.form-input-group {
+	border:1px solid #8E44AD;
+}
+
+textarea#whats-new, textarea#message_content , textarea.ac-input.bp-suggestions {
+	    border-top: 1px solid #CCCCCC;
+    border-right: 1.5px solid #8E44AD;
+    border-bottom: 1.5px solid #8E44AD;
+    border-left: 1px solid #CCCCCC;
+    height:5em;
+}
+table.profile-fields > tbody > tr > td.label{
+	background: gray;
+border-bottom: 1.5px solid white;
+}
+
+table.profile-fields > tbody > tr > td.data {
+	background:Silver;
+    border-bottom: 1.5px solid white;
+}
+
+#profile-edit-form > h4, #profile-edit-form > ul.button-nav , div.profile > h4 , div.profile > p ,#drag-drop-area > div > p ,.bp-screen-reader-text,.avfr-filter-control-item > a, .avfr-votes-area ,.avfr-layout-submit, #follow-notification-settings , #activity-notification-settings, .rtm-ltb-title > .rtmedia-album-name > a, #buddypress > div > div > div.rtmedia-single-meta.rtm-single-meta , #rtmedia-single-media-container >  .rtm-ltb-action-container.clearfix , .friendship_created  {
+	display:none;
+}
+
+p.field-visibility-settings-toggle{
+	padding: 0px!important;
+}
+div.editfield > p.description {
+	padding: 5px;
+}
+
+#drag-drop-area > div > p.drag-drop-buttons, #bp-browse-button{
+	display:table;
+	margin: auto;
+}
+#drag-drop-inside{
+	display: table!important;
+	vertical-align: middle!important;
+}
+
+#avfr-filter-status, #avfr-filter-groups
+{
+	min-width: 125px;
+	min-height:50px	
+}
+
+.entry-content.padding {
+	padding:0;
+}
+
+#WOOWRequestButton ,input#submit.auto {
+	margin: 40px auto;
+	font-size: 14px;
+    font-weight: bold;
+	padding: 10px;
+	
+}
+#settings-form > a, input#submit.button-block { 
+	font-size: 11px;
+	display: block;
+    text-align: center;
+	padding: 5px;
+	margin: 10px auto 10px auto;
+    border: 1.5px;
+    background: white!important;
+    color: #8E44AD !important;
+    border-top: 1.5px solid #CCCCCC;
+    border-right: 2px solid #8E44AD!important;
+    border-bottom: 2px solid #8E44AD!important;
+    border-left: 1.5px solid #CCCCCC;
+	max-width : 192px;
+	line-height:unset;
+    min-height: 47px; 
+	font-weight: bold;
+}
+
+#WOOWRequestDiv, div.activity-meta {
+	display: flex;
+	justify-content:space-around;
+}
+
+#group.featureroup{
+	width:100%;
+}
+
+#rtmedia-nav-item-all, #rtmedia-nav-item-albums, #rtmedia-nav-item-photo, #rtmedia-nav-item-video,  #rtmedia-nav-item-music, .dashicons::before {
+	color:#8E44AD;
+}
+
+#rtmedia-nav-item-all > span::before, #rtmedia-nav-item-albums > span::before, #rtmedia-nav-item-photo > span::before, #rtmedia-nav-item-video > span::before,  #rtmedia-nav-item-music > span::before{
+	content: ' ';
+} 
+
+#subnav > ul {
+	display: grid;
+	width: 100%;
+}
+#subnav > ul >li {
+	display: list-item;
+}
+
+.has-no-subnav #subnav.item-list-tabs ul li{
+	white-space: pre-line;
+
+}
+
+
+.user-nav >li ::after , 
+#subnav > ul > li > a::after{
+	content:'>';
+	float: right;
+}
+
+.user-nav >li >a >span::after{
+	display:none;
+
+}
+
+#members-order-select::after{	
+content:'';
+}
+
+div.entry-meta{
+	display: flex!important;
+}
+#subnav ul li a{
+	color: #8E44AD;
+}
+#subnav ul li{
+	font-weight: bold;
+	color: #8E44AD!important;
+    text-decoration: none;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid 	#8E44AD!important;
+}
+
+label.item-stacked-label > span {
+	display : inline!important;
+}
+
+label.item-stacked-label > span > span {
+	font-size: x-small;
+}
+div.padding > h4 {
+	font-size: 18px;
+	color: #8E44AD;
+	font-weight: bold;
+}
+ 
+#main .item.item-text-wrap {
+	display: table-header-group;
+}
+p.field-name{
+	float:left;
+}
+p.field-visibility{
+	float: right;
+}
+
+div.submit {
+	display:inline-block;
+}
+
+#send-reply > div > div.message-content > label{
+	padding: 2px 2px 10px 2px;
+	border: none;
+}
+
+#group-create-body{
+	    border-top: 1px solid #CCCCCC;
+    border-right: 1.5px solid #8E44AD;
+    border-bottom: 1.5px solid #8E44AD;
+    border-left: 1px solid #CCCCCC;
+}
+
+#group-create-body > div.radio, rtmedia-group-media-settings > div.radio ,div#previous-next {
+	display: grid;
+}
+
+#groups-list > li >div { 
+    font-size: 12px!important;
+	border-bottom: 1.5px solid #8E44AD!important; 
+}
+
+.item-desc > p{
+	font-size: 12px!important;
+}
+
+.accept-invite , .request-membership, .leave-group , .join-group {
+	padding: 0px 2px!important;
+	min-width: 75px;
+}
+
+#groups-list > li > div > div.item-title > a , #group-create-tabs  > ul > li > a{
+		color: #8E44AD;
+	
+}
+
+#groups-list > li > div.meta.right {
+	text-align: center;
+}
+
+.title { display: none; } 
+
+.header:before {
+  width: 219px;
+  content: "";
+  background-image: url(assets/WOOWCloverAppLogo.png) !important;
+  height: 44px;
+  background-size: 219px 44px !important;  
+  background-repeat: no-repeat;  
+  background-position: center top; 
+  z-index: 100; 
+  background-size: 100px; 
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+}
+
+.activity-list a.ac-reply-cancel {
+	top:0px;
+}
+
+.bp-smiley-button-comment {
+	margin: 10px;
+    border-width: 2px;
+    border-color: #8E44AD;
+    padding: 1px;
+    position: relative;
+    left: 95px;
+    top: -40px;
+    float: left;
+}
+
+a.buddypress-smiley-button{
+	margin: 2px 15px 5px 5px;
+    border-width: 2px;
+    border-color: #8E44AD;
+    padding: 1px;
+}
+
+a.friendship-button.pending_friend.requested{
+	min-width: 105.6px;
+}
+
+
