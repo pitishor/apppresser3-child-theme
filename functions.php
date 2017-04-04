@@ -19,7 +19,7 @@ function ap3_ion_enqueue_styles() {
  $appRequest =  htmlspecialchars($_GET["page"]) ?htmlspecialchars($_GET["page"]) :0 ;
  $curUser = wp_get_current_user() instanceof WP_User  ?wp_get_current_user()->user_login : 0 ;
 
-
+//came to find out that there is a similar functionality implemented in APP3 called /me/ . Still need this for last option and if it doesn't match any of the case(s). 
 
 	if ($curPage  == "/appredirector?" &&  $curUser && $appRequest) {
 	  switch ($appRequest){
